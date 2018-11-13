@@ -12,31 +12,18 @@ import android.view.MenuItem;
 import android.widget.Button;
 import android.widget.EditText;
 
+import com.example.ipr_1.prueba.Log.Mylog;
 import com.example.ipr_1.prueba.R;
 
 public class MainActivity extends AppCompatActivity {
-    private Button btnSiguiente;
-    private EditText txtNombre;
+
+    private static final String TAG= "MainActivity";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        btnSiguiente = (Button)findViewById(R.id.btnSiguiente);
-        txtNombre = (EditText)findViewById(R.id.editText);
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
-
-        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
-            }
-        });
-
-    }
+        }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -47,28 +34,28 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
-        int id = item.getItemId();
-
-        //noinspection SimplifiableIfStatement
-        /*if (id == R.id.action_settings) {
-            return true;
-        }*/
 
         switch (item.getItemId()){
+            case R.id.action_Nuevo:
+                Mylog.i("ActionBar","Crear");
+                Intent crear=
+                        new Intent(MainActivity.this, CrearListadoActivity.class);
+                startActivity(crear);
+                break;
             case R.id.action_settings:
+                Mylog.i("ActionBar", "Settings");
                 Intent config=
                         new Intent(MainActivity.this,ConfigActivity.class);
                 startActivity(config);
                 break;
             case R.id.action_acercaDe:
+                Mylog.i("ActionBar","AcercaDe");
                 Intent acerca=
                         new Intent(MainActivity.this, acercaDeActivity.class);
                 startActivity(acerca);
                 break;
             case R.id.action_Listado:
+                Mylog.i("ActionBar","Listado");
                 Intent list=
                         new Intent(MainActivity.this, ListadoActivity.class);
                 startActivity(list);
