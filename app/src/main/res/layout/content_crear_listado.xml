@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayoutListado"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Activity.CrearListadoActivity"
+    tools:showIn="@layout/activity_crear_listado">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/preguntasTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Enunciado Pregunta" />
+
+        <EditText
+            android:id="@+id/respuestaCorrecta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Correcto" />
+
+        <EditText
+            android:id="@+id/respuestaIncorrecta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Incorrecto" />
+
+        <EditText
+            android:id="@+id/respuestaIncorrecta2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Incorrecto" />
+
+        <EditText
+            android:id="@+id/respuestaIncorrecta3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Incorrecto" />
+
+        <TextView
+            android:id="@+id/categoriaTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Categoria" />
+
+        <Spinner
+            android:id="@+id/spinnerListado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btnGuardar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Guardar" />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

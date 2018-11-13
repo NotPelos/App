@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Inicio</string>
+    <string name="action_settings">Configuracion</string>
+    <string name="button">boton</string>
+    <string name="textview">Saludos viajeros</string>
+    <string name="title_activity_saludo">Hi</string>
+    <string name="editText">vacio</string>
+    <string name="title_activity_acerca_de">Acerca De</string>
+    <string name="title_activity_logo">Logo</string>
+    <string name="title_activity_resumen">Inicio</string>
+    <string name="title_activity_listado">Listado</string>
+    <string name="title_activity_crear_listado">Modificar</string>
+</resources>
