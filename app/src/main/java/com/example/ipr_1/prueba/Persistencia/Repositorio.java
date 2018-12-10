@@ -5,7 +5,7 @@ import android.database.sqlite.SQLiteDatabase;
 import android.content.ContentValues;
 
 
-import com.example.ipr_1.prueba.Pregunta;
+import com.example.ipr_1.prueba.Pregunta.Pregunta;
 
 public class Repositorio {
 

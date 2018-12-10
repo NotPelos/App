@@ -43,10 +43,6 @@
             android:name=".Activity.ConfigActivity"
             android:label="@string/title_activity_config"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name=".Activity.NuevaPreguntaActivity"
-            android:label="@string/title_activity_nueva_pregunta"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

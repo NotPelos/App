@@ -11,4 +11,17 @@
     <string name="title_activity_resumen">Inicio</string>
     <string name="title_activity_listado">Listado</string>
     <string name="title_activity_crear_listado">Modificar</string>
+    <string name="title_activity_nueva_pregunta">Nueva Pregunta</string>
+    <string name="title_activity_config">Configuracion</string>
+    <string name="titulopregunta">Titulo pregunta</string>
+    <string name="pregunta">Pregunta</string>
+    <string name="correcta">Correcta</string>
+    <string name="correctainput">Respuesta correcta</string>
+    <string name="falsa">Falsa</string>
+    <string name="falsainput">Respuesta falsa</string>
+    <string name="categorias">Categroia</string>
+    <string name="write_permission_denied">Denegado</string>
+    <string name="write_permission_granted">Allow</string>
+    <string name="write_permission_accepted">Permitido</string>
+    <string name="write_permission_not_accepted">No permitido</string>
 </resources>

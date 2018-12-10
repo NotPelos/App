@@ -9,11 +9,18 @@
     <string name="title_activity_resumen">Home</string>
     <string name="title_activity_acerca_de">Info</string>
     <string name="title_activity_listado">List</string>
-    <string name="title_activity_crear_listado">CrearListadoActivity</string>
-    <string name="title_activity_config">ConfigActivity</string>
-    <string name="write_permission_denied" />
-    <string name="write_permission_granted" />
-    <string name="write_permission_accepted" />
-    <string name="write_permission_not_accepted" />
-    <string name="title_activity_nueva_pregunta">NuevaPreguntaActivity</string>
+    <string name="title_activity_crear_listado">Modify</string>
+    <string name="title_activity_config">Config</string>
+    <string name="write_permission_denied" >Deny</string>
+    <string name="write_permission_granted" >Accepted</string>
+    <string name="write_permission_accepted" >Premited</string>
+    <string name="write_permission_not_accepted" >Not permited</string>
+    <string name="title_activity_nueva_pregunta">New Answer</string>
+    <string name="titulopregunta" >Title question</string>
+    <string name="pregunta">Question</string>
+    <string name="correcta">Correct</string>
+    <string name="correctainput">Correct answer</string>
+    <string name="falsa">False</string>
+    <string name="falsainput">False answer</string>
+    <string name="categorias">Category</string>
 </resources>
